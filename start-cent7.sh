@@ -1,5 +1,5 @@
 yum install -y net-tools wget vim
-wget --no-check-certificate  https://raw.githack.com/zzzhenng/ss-file/master/shadowsocks.sh
+wget --no-check-certificate  https://github.com/zzzhenng/ss-file/blob/master/shadowsocks.sh
 chmod +x shadowsocks.sh
 ./shadowsocks.sh 2>&1 | tee shadowsocks.log
 sed -i '$a echo 3 > /proc/sys/net/ipv4/tcp_fastopen' /etc/rc.local
