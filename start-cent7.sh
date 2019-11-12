@@ -7,4 +7,4 @@ sed -i 's/false/true/g' /etc/shadowsocks.json
 /etc/init.d/shadowsocks restart
 rpm -ivh http://soft.91yun.org/ISO/Linux/CentOS/kernel/kernel-3.10.0-229.1.2.el7.x86_64.rpm --force
 reboot
-wget -N --no-check-certificate https://github.com/91yun/serverspeeder/raw/master/serverspeeder-v.sh	&& bash serverspeeder-v.sh CentOS 7.1 3.10.0-229.1.2.el7.x86_64x64 3.11.20.4 serverspeeder_3283
+wget -N --no-check-certificate https://github.com/91yun/serverspeeder/raw/master/serverspeeder.sh && bash serverspeeder.sh
